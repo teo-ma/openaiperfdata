@@ -1,12 +1,14 @@
-
-
-```markdown
 # 测试GPT-4 Turbo 在Azure 不同Region的性能
+
+
+
 
 本Repo中的两个python文件可以连接多个Azure Region的Azure Openai。
 
  - azure-openai-gpt4turbo.py 用于小数据量测试，使用CSV文件保存性能数据即可，建议初始部署使用azure-openai-gpt4turbo.py 即可。
  - azure-openai-gpt4turbo-with-cosmosdb.py将性能数据及相关详细的数据写入Cosmos DB SQL API并同时写入CSV，用于近一步分享。
+
+
 ## 安装
 
 首先，你需要安装 Python 和以下 Python 库：
