@@ -58,8 +58,12 @@ python openai-dotcom-gpt4turbo.py
 
 在打开的编辑器中，添加以下两行：
 
+```bash
 0 * * * * /usr/bin/python3 /path/to/your/azure-openai-gpt4turbo.py 
 0 * * * * /usr/bin/python3 /path/to/your/openai-dotcom-gpt4turbo.py
+```
+
+
 这行命令的意思是，每小时的第 0 分钟，执行这两个Python程序。/usr/bin/python3 是 Python 解释器的路径，你需要根据你的系统来修改这个路径。/path/to/your/azure-openai-gpt4turbo.py 是你的 Python 程序的路径，你需要替换为你的程序的实际路径。
 
 保存并关闭编辑器。
