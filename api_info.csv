@@ -1,0 +1,2 @@
+region,endpoint,api_key,engine,prompt
+//例子： AustraliaEast,https://ai-australiaeast.openai.azure.com/,<你的azure openai api_key >,gpt-4-turbo-australiaeast,用300个左右的汉字描述什么是微软Azure?
