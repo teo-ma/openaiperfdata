@@ -1,0 +1,2 @@
+region,api_key,engine,prompt
+openai,https://api.openai.com/,sk-<your own openai api_key>,gpt-4-1106-preview,用300个左右的汉字描述什么是微软Azure?
